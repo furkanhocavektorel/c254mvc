@@ -12,8 +12,8 @@ using WebApplication1.context;
 namespace WebApplication1.Migrations
 {
     [DbContext(typeof(SocialContext))]
-    [Migration("20250616154732_FIRST")]
-    partial class FIRST
+    [Migration("20250616163257_firstmig")]
+    partial class firstmig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
